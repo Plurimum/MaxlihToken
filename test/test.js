@@ -111,5 +111,7 @@ describe("MaxlihToken test", function () {
 
     expect(maxlihTokenBalanceBefore.sub(maxlihTokenBalanceAfter)).to.equal(MAXLIH_TOKEN_SWAP_AMOUNT)
     expect(usdtBalanceAfter.sub(usdcBalanceBefore).toNumber()).to.greaterThanOrEqual(USDT_TOKEN_MIN_AMOUNT_EXCHANGE)
+
+    console.log(SEPARATOR);
   })
 });
